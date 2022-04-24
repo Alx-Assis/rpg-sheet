@@ -1,0 +1,300 @@
+  @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+  
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background: #000;
+color: #fff;
+
+/*font-family: freehand;*/
+}
+h4{
+  margin-top: 5px;
+}
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height:auto;
+  color: gray;
+  
+}
+#container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width:100vw;
+  height:auto;
+  border:1px solid #fff;
+  padding:2px;
+}
+#section1{
+  display:flex;
+  justify-content: space-evenly;
+  width: 98vw;
+  padding: 1px;
+}
+#equip{
+  padding: 3px;
+  background-image: url('/papiru.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #442119;
+  height:100%
+  
+}
+#heroImage{
+  width:100px;
+}
+#attrHero{
+  display: flex;
+  justify-content:space-between;
+
+  width:100px;
+  margin-bottom: 2px;
+  
+}
+#save{
+  width: 80vw;
+  height: 50px;
+  background-image:url('/papiru.jpg');
+  font-size: 24px;
+  color:#000;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  margin-bottom: 5px;
+}
+#btnReset, #btnChange{
+  width: 40vw;
+  height: 50px;
+  background-image:url('/papiru.jpg');
+  font-size: 24px;
+  color:#000;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  margin-bottom: 5px;
+}
+#inputList{
+ margin-bottom: 0px;
+ width: 100%;
+  
+}
+#list{
+  display:flex;
+  justify-content: space-between;
+  width: 60vw;
+  height:100%;
+  align-content:center;
+  background-image:url('/papiru.jpg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+  overflow-x:scroll;
+  
+}
+#addBesta{
+  padding: 2px;
+  margin: 5px 0px
+}
+
+.container-button{
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
+  padding: 5px;
+  
+}
+.hab{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  width:30vw;
+  height:auto;
+  border:1px solid #fff;
+  box-sizing: border-box;
+
+}
+#habEquip{
+  display: flex;
+  flex-direction:column;
+  width:30vw;
+  height:100%;
+  border:1px solid #fff;
+overflow-x: scroll;
+  
+
+}
+
+.heroName{
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.encantos{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  width:98vw;
+  margin-top: 5px;
+  
+}
+.boxMagia{
+  display: flex;
+  width:auto;
+  margin:2px;
+  border: 1px solid #fff;
+}
+.qtdeMagia{
+  width:50px;
+  font-weight: 700;
+  text-align: center;
+  height:30px;
+}
+.magia{
+  height:30px;
+  width:80px;
+}
+.bestial{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  width:98vw;
+  margin-top:2px;
+}
+.besta{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:100px;
+  border: 1px solid;
+  padding: 3px;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+.bestaImg{
+  width:90px;
+ /*max-height:75px;*/
+}
+.attrMoster {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputMoster{
+  width: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.nameMoster{
+  text-align: center;
+}
+.inputMoster2{
+  width: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.modal{
+  z-index: 4;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid #f1be61;
+  width: auto;
+  height: 30px;
+  margin-left:60px;
+  top:100px;
+}
+
+
+input{
+  background-repeat: no-repeat;
+  color:#000;
+  background-size:cover ;
+  background-image: url('/papiru.jpg');
+}
+ul,li{
+  color: #003;
+  margin-left:2px;
+  background:transparent;
+}
+#secList2{
+  margin-left:10px;
+  font-weight: 700;
+  background:transparent;
+  margin-left:2px;
+  color:#000;
+  
+}
+
+#secList2 > span{
+  font-weight: 700;
+  background:transparent;
+  color:#000;
+  font-size: 13px;
+  
+}
+#secList2 > input{
+  font-weight: 700;
+  background:transparent;
+  font-size: 13px;
+  height:16px;
+  
+}
+
+li>input{
+  margin-left:2px;
+  
+  background:transparent;
+  
+}
+
+a{
+  font-weight: 700;
+  margin-left:20px;
+  background: transparent;
+  text-decoration: none;
+width: 30px;
+height:auto;
+
+  color:#f00;
+  
+}
+#listContainer{
+  background: transparent;
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+  margin:2px 0px 0px 0px;
+  color:#000;
+}
+#secList1{
+  display: flex;
+  text-align: center;
+  background:transparent;
+  width:35vw;
+  font-size:16px;
+  color: #000;
+  font-family:freehand;
+}
+#secList2{
+  
+  display: flex;
+  font-size: 16px;
+  width: auto;
+  background:transparent;
+  color: #000;
+}
+
+#secList3{
+  display:flex;
+  justify-content: center;
+  width:24px;
+  background: transparent;
+}

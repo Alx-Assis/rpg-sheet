@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000" />
+  
+    <title>RPG-SHEET</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    
+    <div id="container">
+    <div id="header">
+      <h1>Ficha de personagem</h1>
+    </div>
+    
+    <section id="section1">
+        <div class="hab">
+          <span>Nome</span>
+          <input type="text" name="name" id="heroName" class="heroName"
+          />
+          <img id="heroImage" alt="mago"/>
+          <button id="btn">carregar</button>
+          <input type="file" name="image" id="heroFileImage" value=""/>
+          <span>Classe</span>
+          <input type="text" name="name" id="heroClasse" class="heroName" value="" />
+        </div>
+        
+        <div class="hab">
+          <h4>Atributos</h4>
+          <div>
+          <div id="attrHero">
+            <span>Habilid.</span>
+            <input type="number" class="inputMoster" name="" id="heroHab" value="" />
+          </div>
+          <div id="attrHero">
+            <span>Energia</span>
+            <input type="number" class="inputMoster" name="" id="heroEnergia" value="" />
+          </div>
+          <div id="attrHero">
+            <span>Magia</span>
+            <input type="number" class="inputMoster" name="" id="heroMagia" value="" />
+          </div>
+          <div id="attrHero">
+            <span>Sorte</span>
+            <input type="number" class="inputMoster" name="" id="heroSorte" value="" />
+          </div>
+          <div id="attrHero">
+            <span>Ouro</span>
+            <input type="number" class="inputMoster" name="" id="heroOuro" value="" />
+          </div>
+          
+        </div>
+        <span class="map">Mapa</span>
+          <div id="attrHero">
+            <span>Passado</span>
+            <input type="number" class="inputMoster" name="" id="pass" value="" />
+          </div>
+          <div id="attrHero">
+            <span>Presente</span>
+            <input type="number" class="inputMoster" name="" id="present" value="" />
+          </div>
+          <div id="attrHero">
+            <span>Futuro</span>
+            <input type="number" class="inputMoster" name="" id="future" value="" />
+          </div>
+          
+        </div>
+        
+      <div class="hab">
+        
+      <h4 id="equip2">Equipamentos</h4>
+        <div  id="habEquip">
+
+      <div id="list">
+        
+    <ul></ul>
+    
+      </div>
+      
+   
+    
+    <input type="text" placeholder="Novo item" id="inputList" value="" maxlength="20"/>
+    <button>Adicionar</button>
+    </div>
+      </div>
+          <!--
+          <span>Equipamentos</span>
+          <textarea name="equip" id="equip" rows="12" cols="12"></textarea>
+        </div>
+        -->
+      
+      </section>
+      <h4>Encantos e Magias</h4>
+    <div class="encantos" id="encantos">
+      <!--
+      <button id="addMagia" >Adicionar encantos</button>
+        -->
+          <div class="boxMagia">
+          <select  id="magia1" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia1" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia2" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia2" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia3" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+            <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia3" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia4" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia4" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia5" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia5" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia6" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia6" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia7" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia7" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia8" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+          <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia8" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+           <select  id="magia9" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+          <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia9" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia10" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia10" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia11" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia11" value="0" />
+          </div>
+          
+          <div class="boxMagia">
+          <select  id="magia12" name="magia" class="magia" >
+           <option value='...'>...</option>
+           <option value="Sorte">Sorte</option>
+           <option value="Energia">Energia</option>
+           <option value="Fire">Fire</option>
+           <option value="Ouro de tolo">Ouro de tolo</option>
+           <option value="Levitação">Levitação</option>
+           <option value="Cópia de criaturas">Cópia de criatura</option>
+           <option value="Percepção">Percepção</option>
+           <option value="Ilusão">Ilusão</option>
+           <option value="Escudo">Escudo</option>
+           <option value="Força">Força</option>
+           <option value="Habilidade">Habilidade</option>
+           <option value="Sorte">Sorte</option>
+          </select>
+          <input type="number" name="" class="qtdeMagia" id="qtdeMagia12" value="0" />
+          </div>
+          
+          
+      
+        </div>
+    
+        <h4>Bestiário</h4>
+    <div class="bestial" id="bestial-container"></div>
+    <div class="bestial" id="bestial-container2"></div>
+    
+    <button id="addBesta" >Adicionar criatura</button>
+      
+     <button id="save">Salvar</button>
+     <div class="container-button">
+       
+     <button id="btnChange">Editar Ficha</button>
+     <button id="btnReset">Reset Ficha</button>
+     </div>
+     
+    </div>
+      
+   
+    <script src="script.js" type="module" charset="utf-8"></script>
+    <script src="save_script.js" type="module" charset="utf-8"></script>
+    <script src="save_script2.js" type="module" charset="utf-8"></script>
+    <script src="save_script3.js" type="module" charset="utf-8"></script>
+    <script src="edit_script.js" type="module" charset="utf-8"></script> 
+    <script src="todo.js" type="module" charset="utf-8"></script> 
+    
+  </body>
+</html>
